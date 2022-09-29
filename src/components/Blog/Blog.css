@@ -1,0 +1,27 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    background-color: #e6f3ff;
+    border-radius: 10px;
+}
+
+.blog {
+    margin: 30px;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.blog h1,
+h3 {
+    color: lightslategray;
+}
+
+.blog p {
+    color: darkgray;
+}
+
+.blog-2 {
+    padding-bottom: 20px;
+}
