@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Book from '../Book/Book';
 import hero from '../../images/hero-01.jpeg'
 import './Books.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBookTanakh, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 const Books = () => {
     const [books, setBooks] = useState([]);
@@ -21,7 +23,7 @@ const Books = () => {
     return (
         <div className='display-container'>
             <div className='display-books'>
-                <h1>BookBub - Your Best Collection</h1>
+                <h1> <FontAwesomeIcon icon={faBookTanakh}></FontAwesomeIcon> BookBub - Your Best Collection</h1>
                 <h3>Select Today's Book</h3>
                 <div className='books-container'>
                     {
@@ -38,7 +40,7 @@ const Books = () => {
                     <img className='hero' src={hero} alt="" />
                     <div>
                         <h2>Mithun Biswas</h2>
-                        <p>Barishal, Bangladesh</p>
+                        <p><FontAwesomeIcon icon={faLocationDot} /> Barishal, Bangladesh</p>
                     </div>
                 </div>
                 <div className='common'>

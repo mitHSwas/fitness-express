@@ -1,3 +1,5 @@
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Book.css'
 
@@ -11,7 +13,7 @@ const Book = ({ book, getReadTime }) => {
                 <p className='intro-text'><small>{intro}</small></p>
                 <p>Page: {page}</p>
                 <p>Time required: {duration} minutes</p>
-                <button onClick={() => getReadTime(book)} className='book-btn'>Add to list</button>
+                <button onClick={() => getReadTime(book)} className='book-btn'>Add to list <FontAwesomeIcon icon={faCartPlus}></FontAwesomeIcon></button>
             </div>
         </div>
     );
