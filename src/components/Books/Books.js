@@ -21,7 +21,7 @@ const Books = () => {
     return (
         <div className='display-container'>
             <div className='display-books'>
-                <h1>Fit-Ness Express</h1>
+                <h1>BookBub</h1>
                 <h3>Select Today's Book</h3>
                 <div className='books-container'>
                     {
