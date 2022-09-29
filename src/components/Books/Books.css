@@ -81,7 +81,7 @@ h3 {
     height: 40px;
     border: none;
     border-radius: 5px;
-    background-color: sandybrown;
+    background-color: red;
     color: white;
     font-size: 18px;
     margin-left: 35px;
@@ -89,7 +89,7 @@ h3 {
 }
 
 .completed-btn:hover {
-    background-color: goldenrod;
+    background-color: green;
 }
 
 @media only screen and (max-width: 768px) {
