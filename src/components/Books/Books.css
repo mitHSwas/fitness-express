@@ -9,6 +9,10 @@
     border-radius: 5px;
 }
 
+.display-books h1 {
+    color: #6464ce;
+}
+
 .display-books h3 {
     margin-bottom: 20px;
 }
