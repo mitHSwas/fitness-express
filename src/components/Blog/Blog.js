@@ -26,7 +26,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className="blog">
-                <h1>Instead of data loading why useEffect needs for react?</h1>
+                <h1>Instead of data loading why use effect needs for react?</h1>
                 <p>
                     useOnUpdate() This is another useful hook for when we want to trigger an action when the component state changes, and not when the component mounts. You can consider it the ComponentWIllUpdate alternative for functional React. This one - calls the callback each time the state changes, triggering an action.The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components.
                 </p>
