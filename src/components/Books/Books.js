@@ -57,7 +57,7 @@ const Books = () => {
                         <p>Age</p>
                     </div>
                 </div>
-                <h2>Add A Break</h2>
+                <h2>Add A Break:</h2>
                 <div className='identity common'>
                     <button onClick={() => setBreakTime(10)}>10s</button>
                     <button onClick={() => setBreakTime(20)}>20s</button>
@@ -66,7 +66,7 @@ const Books = () => {
                     <button onClick={() => setBreakTime(50)}>50s</button>
                 </div>
                 <div>
-                    <h2>Read-Time Details</h2>
+                    <h2>Read-Time Details:</h2>
                     <div className='common'>
                         <h3>Total Read</h3>
                         <p>{time} Seconds</p>
