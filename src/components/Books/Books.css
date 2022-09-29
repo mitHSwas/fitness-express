@@ -1,0 +1,89 @@
+.display-container {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+
+.display-books {
+    background-color: #e6f3ff;
+    padding: 30px;
+}
+
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.hero {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.identity button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.identity button:hover {
+    background-color: #485edf;
+    font-size: 18px;
+    color: white;
+}
+
+.id-container {
+    margin: 0 20px;
+}
+
+.identity {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.identity h2,
+p {
+    margin: 0;
+}
+
+.time-details h2 {
+    margin: 20px;
+}
+
+.common {
+    display: flex;
+    background-color: #e6f3ff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.common p,
+h3 {
+    margin: 0 15px;
+}
+
+.common small {
+    color: gray;
+    font-weight: 400;
+}
+
+.completed-btn {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: sandybrown;
+    color: white;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.completed-btn:hover {
+    background-color: goldenrod;
+}

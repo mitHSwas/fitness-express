@@ -1,0 +1,39 @@
+.book-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.book {
+    padding: 15px;
+    position: relative;
+    height: 500px;
+}
+
+.book img {
+    border-radius: 10px;
+}
+
+.book p {
+    margin: 7px 0;
+}
+
+.intro-text {
+    color: gray;
+}
+
+.book-btn {
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f7ff3;
+    color: white;
+    font-size: 18px;
+    margin-left: 18px;
+    position: absolute;
+    bottom: 15px;
+}
+
+.book-btn:hover {
+    background-color: salmon;
+}
