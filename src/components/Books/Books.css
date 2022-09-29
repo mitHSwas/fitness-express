@@ -6,6 +6,7 @@
 .display-books {
     background-color: #e6f3ff;
     padding: 0 30px;
+    border-radius: 5px;
 }
 
 .display-books h3 {
